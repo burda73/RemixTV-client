@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="settings_background">#101820</color>
+    <color name="primary">#00B4D8</color>
+    <color name="splash_placeholder_bg">#101820</color>
+</resources>

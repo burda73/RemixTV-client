@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:key="pref_server_url"
+        app:persistent="false"
+        app:title="@string/pref_server_url_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:key="pref_player_name"
+        app:persistent="false"
+        app:title="@string/pref_player_name_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreferenceCompat
+        app:key="pref_debug_enabled"
+        app:persistent="false"
+        app:title="@string/pref_debug_title"
+        app:summaryOff="@string/pref_debug_off"
+        app:summaryOn="@string/pref_debug_on" />
+
+    <SwitchPreferenceCompat
+        app:key="pref_boot_start"
+        app:persistent="false"
+        app:title="@string/pref_boot_start_title"
+        app:summaryOff="@string/pref_boot_start_off"
+        app:summaryOn="@string/pref_boot_start_on" />
+
+    <Preference
+        app:key="pref_splash_hint"
+        app:selectable="false"
+        app:summary="@string/pref_splash_asset_hint"
+        app:title="@string/pref_splash_title" />
+
+    <EditTextPreference
+        app:key="pref_cache_mb"
+        app:persistent="false"
+        app:title="@string/pref_cache_mb_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:defaultValue="5"
+        app:entries="@array/sync_interval_labels"
+        app:entryValues="@array/sync_interval_values"
+        app:key="pref_sync_interval"
+        app:persistent="false"
+        app:title="@string/pref_sync_interval_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <Preference
+        app:key="pref_sync_now"
+        app:title="@string/pref_sync_now_title" />
+
+    <Preference
+        app:key="pref_device_ip"
+        app:selectable="false"
+        app:title="@string/pref_device_ip_title" />
+
+    <Preference
+        app:key="pref_status"
+        app:selectable="false"
+        app:title="@string/pref_status_title" />
+</PreferenceScreen>

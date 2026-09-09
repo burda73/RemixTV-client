@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemixTV</string>
+    <string name="settings_title">Настройки RemixTV</string>
+
+    <string name="download_error_generic">Ошибка загрузки</string>
+    <string name="playback_channel_name">Воспроизведение RemixTV</string>
+    <string name="notification_playing">Воспроизведение</string>
+    <string name="action_previous">Назад</string>
+    <string name="action_next">Вперёд</string>
+    <string name="action_play_pause">Пауза / Пуск</string>
+    <string name="pref_server_url_title">URL сервера</string>
+    <string name="pref_player_name_title">Имя проигрывателя</string>
+    <string name="pref_debug_title">Отладка на экране</string>
+    <string name="pref_debug_on">Панель логов справа включена</string>
+    <string name="pref_debug_off">Панель логов выключена</string>
+    <string name="pref_boot_start_title">Запуск при старте системы</string>
+    <string name="pref_boot_start_on">Приложение откроется после загрузки Android</string>
+    <string name="pref_boot_start_off">Автозапуск выключен</string>
+    <string name="pref_splash_title">Заставка ожидания</string>
+    <string name="pref_splash_asset_hint">Положите файл в каталог проекта:\napp/src/main/assets/remixtv/splash.png\nили\napp/src/main/assets/remixtv/splash.jpg\n\nФормат: PNG или JPEG. Рекомендуемое разрешение 1920×1080 (или 3840×2160). После добавления файла пересоберите APK.</string>
+    <string name="pref_cache_mb_title">Лимит кэша (МБ)</string>
+    <string name="pref_sync_interval_title">Автосинхронизация (мин)</string>
+    <string name="pref_sync_now_title">Синхронизировать сейчас</string>
+    <string name="pref_device_ip_title">IP устройства (отладка)</string>
+    <string name="pref_device_ip_summary">%1$s</string>
+    <string name="pref_status_title">Статус</string>
+    <string name="debug_panel_title">Отладка</string>
+</resources>
